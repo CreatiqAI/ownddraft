@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Build Your OWND</title>
+  <link rel="stylesheet" href="../styles.css">
+  <script defer src="../site.js"></script>
+</head>
+<body>
+  <div class="site">
+    <site-header></site-header>
+    <section class="hero" style="min-height:auto;padding:80px 0 52px">
+      <img class="paint left" src="../assets/paint-corner-black.jpg" alt="">
+      <img class="paint right" src="../assets/paint-orange-black.jpg" alt="">
+      <div class="container center">
+        <h1 class="display">Build Your <span class="accent">OWND</span></h1>
+        <p class="lead" style="font-family:var(--serif);color:var(--ink)">Choose your expression. Customize your moving canvas.</p>
+      </div>
+    </section>
+    <section class="wide builder-layout">
+      <aside class="builder-panel">
+        <p class="eyebrow" style="color:var(--ink)">1 &nbsp; Choose Expression</p>
+        <p class="small">Select your canvas mood.</p>
+        <div class="option-grid" style="margin-top:18px">
+          <button class="choice active" type="button"><img src="../assets/builder-expression-light.jpg" alt=""><b>Canvas Light</b></button>
+          <button class="choice" type="button"><img src="../assets/builder-expression-dark.jpg" alt=""><b>Canvas Dark</b></button>
+        </div>
+        <hr style="border:0;border-top:1px solid var(--line);margin:24px 0">
+        <p class="eyebrow" style="color:var(--ink)">2 &nbsp; Body / Parts Colors</p>
+        <p class="small">Make it yours.</p>
+        <p class="small" style="margin-top:18px">Body Color</p>
+        <div class="swatches"><button class="swatch active" style="background:#d7d7d5"></button><button class="swatch" style="background:#222"></button><button class="swatch" style="background:#266838"></button><button class="swatch" style="background:#284e8c"></button></div>
+        <p class="small" style="margin-top:18px">Corner Guards</p>
+        <div class="swatches"><button class="swatch active" style="background:#ef4c14"></button><button class="swatch" style="background:#f6b51f"></button><button class="swatch" style="background:#232323"></button><button class="swatch" style="background:#596130"></button></div>
+        <hr style="border:0;border-top:1px solid var(--line);margin:24px 0">
+        <p class="eyebrow" style="color:var(--ink)">3 &nbsp; Choose Art Panel</p>
+        <div class="panel-list" style="margin-top:16px">
+          <a class="panel-option" href="#"><img src="../assets/builder-artist.jpg" alt=""><span><b>Artist Edition</b><br><small>Curated by global artists.</small></span><span>›</span></a>
+          <a class="panel-option" href="#"><img src="../assets/builder-anime.jpg" alt=""><span><b>Anime Edition</b><br><small>Iconic. Timeless. Expressive.</small></span><span>›</span></a>
+          <a class="panel-option" href="#"><img src="../assets/builder-personality.jpg" alt=""><span><b>Personality Edition</b><br><small>Made for how you move.</small></span><span>›</span></a>
+          <a class="panel-option" href="#"><span data-icon="arrow"></span><span><b>Upload Your Own</b><br><small>Create a one-of-one.</small></span><span>›</span></a>
+        </div>
+        <hr style="border:0;border-top:1px solid var(--line);margin:24px 0">
+        <p class="eyebrow" style="color:var(--ink)">4 &nbsp; Personalize</p>
+        <input placeholder="Add text (e.g. Tokyo 0017)" aria-label="Personalization">
+      </aside>
+      <div class="builder-stage">
+        <p style="text-align:left"><span data-icon="rotate"></span> 360° View</p>
+        <img src="../assets/builder-luggage.jpg" alt="Configured OWND suitcase with Tokyo Japan panel">
+        <p class="small">Colors may vary slightly in real life.</p>
+      </div>
+      <aside class="summary">
+        <h2 style="margin:0 0 24px;font-size:20px">ORDER SUMMARY</h2>
+        <div class="panel-list">
+          <div class="summary-row"><img src="../assets/builder-expression-light.jpg" alt=""><span>Expression<br><b>Canvas Light</b></span></div>
+          <div class="summary-row"><img src="../assets/drop-item-luggage.jpg" alt=""><span>Body Color<br><b>Silver</b></span></div>
+          <div class="summary-row"><span class="swatch" style="background:#ef4c14"></span><span>Corner Guards<br><b>Orange</b></span></div>
+          <div class="summary-row"><img src="../assets/campaign-inspiration-1.jpg" alt=""><span>Art Panel<br><b>Artist Edition 001</b></span></div>
+        </div>
+        <p style="margin-top:24px">Personalization<br><b>TOKYO JAPAN 0017</b></p>
+        <p>Quantity</p>
+        <div class="quantity"><button data-quantity="minus" type="button">−</button><span data-quantity-value>1</span><button data-quantity="plus" type="button">+</button></div>
+        <p style="display:flex;justify-content:space-between;align-items:end;margin-top:28px">Price <strong style="font-size:30px">$329.00</strong></p>
+        <a class="btn primary block" href="#" style="margin-top:16px"><span data-icon="bag"></span>Add to Cart</a>
+        <a class="btn block" href="../first-drop/" style="margin-top:14px">Reserve This Drop</a>
+        <p class="small center">Secure checkout. Easy returns.</p>
+      </aside>
+    </section>
+    <div class="container feature-strip">
+      <div class="feature"><span data-icon="plane"></span><div><h3>Made to Move</h3><p>Built tough for every journey.</p></div></div>
+      <div class="feature"><span data-icon="brush"></span><div><h3>Your Canvas</h3><p>Express who you are.</p></div></div>
+      <div class="feature"><span data-icon="shield"></span><div><h3>Premium Quality</h3><p>Thoughtful details that last.</p></div></div>
+      <div class="feature"><span data-icon="gem"></span><div><h3>Design. Travel. Own.</h3><p>OWND is more than luggage.</p></div></div>
+    </div>
+    <site-footer></site-footer>
+  </div>
+</body>
+</html>

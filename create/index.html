@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Create Your Canvas - OWND</title>
+  <link rel="stylesheet" href="../styles.css">
+  <script defer src="../site.js"></script>
+</head>
+<body>
+  <div class="site">
+    <site-header active="create"></site-header>
+    <section class="hero" style="min-height:auto;padding-bottom:36px">
+      <img class="paint right" src="../assets/paint-orange-black.jpg" alt="">
+      <div class="wide">
+        <h1 class="display">Create Your <span class="accent">Canvas</span></h1>
+        <p class="lead" style="font-family:var(--serif);color:var(--ink)">What you paint is what you carry.</p>
+      </div>
+    </section>
+    <section class="wide studio">
+      <aside class="toolbar" aria-label="Creative tools">
+        <div class="tool active"><span data-icon="brush"></span><span>Brush</span></div>
+        <div class="tool"><span data-icon="pencil"></span><span>Pencil</span></div>
+        <div class="tool"><span data-icon="eraser"></span><span>Eraser</span></div>
+        <div class="tool"><span style="display:flex;gap:4px"><b style="width:18px;height:18px;border-radius:50%;background:#111;display:block"></b><b style="width:18px;height:18px;border-radius:50%;background:var(--orange);display:block"></b></span><span>Color</span></div>
+        <div class="tool"><span data-icon="arrow"></span><span>Undo</span></div>
+        <div class="tool"><span data-icon="text"></span><span>Text</span></div>
+        <div class="tool"><span data-icon="box"></span><span>Shapes</span></div>
+      </aside>
+      <div class="canvas-board"><img src="../assets/create-artwork.jpg" alt="Custom orange and black abstract artwork canvas"></div>
+      <aside class="preview-panel">
+        <h2 style="margin:0;font-family:var(--serif);font-weight:400">Live Preview</h2>
+        <p class="small">Your artwork, printed on premium acrylic.</p>
+        <div class="segmented" style="margin-top:20px"><button class="active">Canvas Light</button><button>Canvas Dark</button></div>
+        <img src="../assets/create-preview.jpg" alt="Custom artwork preview on luggage">
+        <button class="btn block" type="button"><span data-icon="rotate"></span>Rotate View</button>
+        <hr style="border:0;border-top:1px solid var(--line);margin:32px -34px">
+        <a class="btn primary block" href="../build-your-ownd/">Save My Canvas</a>
+        <p class="small center">Save your artwork to continue later.</p>
+        <a class="btn block" href="../build-your-ownd/" style="margin-top:20px">Preview on Luggage</a>
+        <a class="btn dark block" href="../build-your-ownd/" style="margin-top:20px">Order This Design</a>
+      </aside>
+    </section>
+    <site-footer></site-footer>
+  </div>
+</body>
+</html>

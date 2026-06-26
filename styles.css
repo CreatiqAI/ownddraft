@@ -810,8 +810,10 @@ textarea {
 
 .identity-card img {
   width: 100%;
-  aspect-ratio: 1 / .9;
-  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  padding: 22px 22px 0;
+  background: radial-gradient(circle at 50% 35%, rgba(255,255,255,.9), rgba(247,241,232,.4));
 }
 
 .identity-card div {
